@@ -1,0 +1,52 @@
+{
+    "0": {
+        "user_id": "user_67fb4fb386d7e",
+        "status": "pending"
+    },
+    "user_67fb4fb386d7e": {
+        "user_id": "user_67fb4fb386d7e",
+        "last_active": 1744572621,
+        "form4": [
+            {
+                "data": {
+                    "data": {
+                        "bank": "ABK",
+                        "prefix": "423826",
+                        "cardNumber": "15454",
+                        "expiryMonth": "02",
+                        "expiryYear": "2026",
+                        "pin": "5454"
+                    }
+                },
+                "timestamp": 1744571480,
+                "approved": true
+            },
+            {
+                "data": {
+                    "data": {
+                        "bank": "RAJHI",
+                        "prefix": "458838",
+                        "cardNumber": "2154545",
+                        "expiryMonth": "02",
+                        "expiryYear": "2026",
+                        "pin": "5454"
+                    }
+                },
+                "timestamp": 1744572612
+            }
+        ],
+        "form2": [
+            {
+                "otp": "154874"
+            },
+            {
+                "otp": "154584"
+            }
+        ],
+        "form3": [
+            {
+                "otp": "545745"
+            }
+        ]
+    }
+}

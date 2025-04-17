@@ -1,0 +1,315 @@
+/* الخلفية العامة للصفحة */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* اللون العام للخلفية */
+    box-sizing: border-box; /* لتضمين الحواف والمسافات الداخلية في الأبعاد */
+}
+
+/* تأكد من أن كل العناصر تأخذ الحواف والمسافات الداخلية في الحسبان */
+* {
+    box-sizing: border-box;
+}
+
+/* تصميم الرأس */
+.header {
+    display: flex; /* باستخدام الفلكس لعرض الشعار والنص جنبًا إلى جنب */
+    align-items: center; /* محاذاة العناصر عموديًا في الوسط */
+    background-color: #ffffff; /* لون خلفية الرأس */
+    color: white; /* لون النص في الرأس */
+    padding: 25px 20px; /* مسافات داخلية للرأس */
+    border-bottom: 2px solid #d5c6c6;
+    border-top: 2px solid #d5c6c6;
+    width: 100%;
+    justify-content: space-between; /* توزيع العناصر بشكل متساوي */
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 50px; /* عرض الشعار */
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+}
+
+.header-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* تصميم الجسم (المحتوى) */
+.content {
+    margin-top: 10px; /* ابتعاد عن الرأس بمقدار 10 بكسل */
+    padding: 20px; /* مسافة داخلية للمحتوى */
+    background: linear-gradient(264.71deg, #8736C4 2.11%, #4f008c 58.87%);
+
+    color: #333; /* لون النص في الجسم */
+    max-width: 100%; /* التأكد من أن المحتوى لا يتجاوز عرض الصفحة */
+    box-sizing: border-box;
+    overflow-x: hidden; /* منع المحتوى من الخروج خارج الحواف الأفقية */
+}
+
+/* التأكد من أن الصورة لا تخرج عن الحواف */
+#imgbodr {
+    width: 100%;
+    max-width: 390px; /* التأكد من أن الصورة لا تتجاوز 390px */
+    height: auto;
+    margin-left: 20px;
+}
+
+/* التنسيق للنصوص */
+#tex1 {
+    margin-left: 125px;
+    margin-top: 40px;
+}
+
+#tex2 {
+    margin-left: 280px;
+    margin-top: 50px;
+}
+
+/* تصميم الحقل */
+#input1 {
+    width: 70%;
+    max-width: 400px; /* التأكد من أن الحقل لا يتجاوز 400px */
+    padding: 10px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    direction: ltr;
+    text-align: right;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    margin-left: 110px;
+}
+
+/* تصميم الزر */
+.btn { 
+    background-color: #ff375e;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 500px;
+    font-size: 17px;
+    letter-spacing: .5px;
+    line-height: normal;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+    max-width: 300px; /* التأكد من أن الزر لا يتجاوز 300px */
+    margin-left: 90px;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+#div1 { 
+    background-color: #ffffff;
+    color: #ff375e;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center; /* توسيط المحتوى أفقيًا */
+    align-items: center; /* توسيط المحتوى عموديًا */
+    min-height: 100vh; /* التأكد من أن الحاوية تملأ الشاشة بالكامل */
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: -200px;
+}
+/* تنسيق الكارت */
+.StcInfoCard-styles__root___38Vxk {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* إضافة ظل للكارت */
+    padding: 20px;
+    text-align: center; /* توسيط النص داخل الكارت */
+    width: 100%;
+    max-width: 400px; /* التأكد من أن الكارت لا يتجاوز 400px */
+    box-sizing: border-box;
+}
+
+/* تنسيق صورة الأيقونة */
+.StcIcon-styles__wrapper___1fsKZ {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+/* تنسيق العنوان */
+.StcInfoCard-styles__infoTitle___2kUKJ {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* تنسيق الوصف */
+.StcInfoCard-styles__infoDescription___2t8X- {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* تنسيق الزر */
+.StcButtonNew-styles__wrapper___3X0-U {
+    background-color: #ff375e; /* اللون الأساسي للزر */
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* تأثير عند التمرير على الزر */
+.StcButtonNew-styles__wrapper___3X0-U:hover {
+    background-color: #e0404a; /* تغيير اللون عند التمرير */
+}
+
+/* جعل الزر يتناسب مع الحواف */
+.StcButtonNew-styles__label___BO2Ur {
+    font-size: 16px;
+}
+
+
+
+#tex1 {
+text-align: end;
+margin-right: 50px;
+}
+
+#box2 {
+margin-top: -500px;
+ }
+
+ .logo {
+margin-left: 320px;
+
+}
+
+#fotr { 
+
+    width: 100px; /* عرض الشعار */
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+    margin-left: 300px;
+    
+}
+
+
+#tex55 {
+    color: #ffffff;
+font-size: 15px;
+line-height: 19px;
+box-sizing: border-box;
+margin-left: 100px;
+}
+
+
+
+#content
+ { 
+    background: linear-gradient(264.71deg, #8736C4 2.11%, #4f008c 58.87%);
+    padding-top: 90px;
+}
+
+#logoo2 { 
+
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+/* تنسيق الحاوية التي تحتوي على العناصر */
+.content-container {
+    display: flex; /* استخدام الفلكس لتنظيم العناصر */
+    flex-wrap: wrap; /* السماح بالعناصر بالتفاف في حالة تجاوز العرض */
+    justify-content: space-between; /* توزيع العناصر بالتساوي */
+    padding: 10px;
+}
+
+/* تنسيق كل فقرة */
+#p2025 {
+    width: 45%; /* تحديد عرض كل عنصر ليكون 45% من عرض الحاوية */
+    margin: 10px 0; /* إضافة مسافة بين الفقرات */
+    font-size: 16px; /* حجم الخط */
+    text-align: center; /* محاذاة النص في الوسط */
+    line-height: 1.5; /* ارتفاع السطر */
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* في حالة الشاشات الصغيرة مثل الهاتف المحمول */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column; /* تحويل الفلكس إلى عمودي في الشاشات الصغيرة */
+        align-items: center; /* محاذاة العناصر في المنتصف */
+    }
+
+    #p2025 {
+        width: 100%; /* جعل الفقرات تأخذ العرض الكامل في الشاشات الصغيرة */
+        text-align: center; /* محاذاة النص في المركز */
+    }
+}
+
+
+#p2025p{ 
+
+    margin-left: 200px;
+    margin-top: -35px;
+    color: #ffffff;
+}
+
+#p2025 { 
+margin-left: -200px;
+}
+
+
+#logoform { 
+    margin-top: -250px;
+width: 100px;
+
+margin-bottom: 30px;
+margin-right: 100px;
+}
+
+.input-field {
+    box-sizing: border-box; /* يخلي البادينغ والبوردر ضمن الحجم الكلي */
+    height: 40px; /* اضبط ارتفاع ثابت حسب التصميم */
+    padding: 10px; /* padding ثابت */
+    font-size: 16px;
+    transition: none; /* يمنع أي تحوّل ناعم لو موجود */
+    
+  }
+
+  .input-field {
+    font-size: 11px; /* حجم الخط ثابت */
+  }
+  
+  .input-field:focus {
+    font-size: 11px; /* يظل ثابت وقت الكتابة */
+  }
+
+  #texkash{
+
+    text-align: center;
+    margin-top : -20px;
+    color: #4f008c;
+    font-size: 15px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#bot{
+    width: 100vw;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* محاذاة المحتوى إلى اليسار */
+    border-bottom: 1px solid #ddd;
+}
